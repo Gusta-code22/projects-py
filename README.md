@@ -18,7 +18,7 @@ Apesar de hoje meu foco principal ser **Java e Spring**, estes projetos represen
 
 ## ⭐ Projeto em Destaque
 
-### 🖼️➡️📄 Conversor de Imagem para PDF
+### 🖼️➡️📄 Conversor de PDF para Imagem
 
 **Arquivo:** `pdftoimage.py`  
 **Executável:** `pdftoimage.exe`
@@ -26,12 +26,12 @@ Apesar de hoje meu foco principal ser **Java e Spring**, estes projetos represen
 Projeto altamente prático para automação de documentos.
 
 #### 🔹 Funcionalidades
-- Converte imagens em arquivos PDF
+- Converte PDf em Imagem
 - Automatiza completamente o processo
 - Útil para:
   - Trabalhos escolares
   - Digitalização de documentos
-  - Organização de imagens em um único PDF
+  - Organização de PDF para imagens separadas 
 
 > Simples, direto e extremamente útil no dia a dia.
 
