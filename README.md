@@ -1,18 +1,18 @@
 # 🧠 Coleção de Projetos Python — Automação & Estudos
 
-Este repositório reúne diversos projetos em **Python**, desenvolvidos ao longo do meu aprendizado na linguagem, com foco em **automação real**, scripts utilitários e pequenos projetos educacionais.
+Este repositório reúne diversos projetos em **Python**, desenvolvidos ao longo do meu aprendizado na linguagem, com foco em **automação real**, scripts utilitários, interfaces gráficas e RPA.
 
-Apesar de hoje meu foco principal ser **Java e Spring**, estes projetos representam uma base sólida de lógica, manipulação de arquivos, automação e interação com o usuário.
+Apesar de hoje meu foco principal ser **Java e Spring**, estes projetos representam uma base sólida em lógica, automação de processos e interação com sistemas externos.
 
 ---
 
 ## 📌 Destaques do Repositório
 
-- Automações reais para arquivos e imagens
-- Scripts utilitários reutilizáveis
-- Projetos simples, porém funcionais
-- Código direto, sem frameworks desnecessários
-- Ideal para iniciantes estudarem e adaptarem
+- Automações reais sem intervenção humana
+- RPA com PyAutoGUI
+- Manipulação de arquivos (CSV, imagens, PDF)
+- Interfaces gráficas com CustomTkinter e Streamlit
+- Projetos ideais para iniciantes evoluírem rápido
 
 ---
 
@@ -23,7 +23,7 @@ Apesar de hoje meu foco principal ser **Java e Spring**, estes projetos represen
 **Arquivo:** `pdftoimage.py`  
 **Executável:** `pdftoimage.exe`
 
-Este é um dos projetos mais práticos do repositório.
+Projeto altamente prático para automação de documentos.
 
 #### 🔹 Funcionalidades
 - Converte imagens em arquivos PDF
@@ -33,22 +33,54 @@ Este é um dos projetos mais práticos do repositório.
   - Digitalização de documentos
   - Organização de imagens em um único PDF
 
-#### 🔹 Tecnologias usadas
-- Python
-- Bibliotecas de manipulação de imagem
-- Execução via script ou `.exe`
-
-> Projeto simples, porém extremamente útil no dia a dia.
+> Simples, direto e extremamente útil no dia a dia.
 
 ---
 
 ## 📂 Lista de Projetos
 
-### 🔐 Gerador de Senhas
+### 🤖 Automação de Cadastro de Produtos (RPA)
+**Arquivo:** `codigo.py`  
+**Arquivo de dados:** `produtos.csv`
+
+- Sistema de **automação completa com PyAutoGUI**
+- Abre o **Google Chrome automaticamente**
+- Acessa o site da empresa
+- Realiza login (se configurado)
+- Cadastra produtos **sem qualquer clique manual**
+- Os dados são lidos diretamente do arquivo `produtos.csv`
+
+> Exemplo real de RPA: o usuário apenas prepara o CSV e a automação faz todo o trabalho.
+
+---
+
+### 🔐 Gerador de Senhas (Interface Gráfica)
 **Arquivo:** `geradordesenha.py`
 
-- Gera senhas seguras automaticamente
-- Ideal para testes e estudos de segurança básica
+- Gerador de senhas seguras
+- Interface gráfica desenvolvida com **CustomTkinter**
+- Excelente projeto para quem está começando com GUI em Python
+- Combina lógica + experiência visual
+
+---
+
+### ⚖️ Calculadora de IMC com Interface
+**Arquivo:** `Calculator_imc.py`
+
+- Calculadora de IMC (Índice de Massa Corporal)
+- Desenvolvida com **Streamlit**
+- Inclui:
+  - Questionário interativo
+  - Interface web simples
+  - Resultado visual e interpretado
+
+---
+
+### 📷 Marca d’água em Fotos
+**Arquivo:** `fotos.py`
+
+- Adiciona marca d’água em imagens
+- Útil para proteção e autoria de conteúdo visual
 
 ---
 
@@ -60,52 +92,34 @@ Este é um dos projetos mais práticos do repositório.
 
 ---
 
-### 📷 Marca d’água em Fotos
-**Arquivo:** `fotos.py`
-
-- Adiciona marca d’água em imagens
-- Útil para proteção de conteúdo visual
-
----
-
-### ⚖️ Calculadora de IMC com Interface
-**Arquivo:** `Calculator_imc.py`
-
-- Calcula o IMC (Índice de Massa Corporal)
-- Desenvolvido com **Streamlit**
-- Inclui:
-  - Questionário interativo
-  - Interface gráfica simples
-  - Resultado visual e interpretado
-
----
-
-### 📦 Controle / Revisão de Produtos
+### 📦 Revisão / Controle de Produtos
 **Arquivos:**  
 - `revi_de_produto.py`  
 - `produtos.csv`
 
 - Leitura e manipulação de dados via CSV
-- Simulação de um pequeno sistema de controle de produtos
+- Simulação de um pequeno sistema de controle e validação de produtos
 
 ---
 
 ### 🛠️ Scripts Auxiliares
 **Arquivos:**
-- `codigo.py`
 - `auxiliarautoqui.py`
+- Outros arquivos de apoio e testes
 
-Scripts diversos usados para testes, automações específicas e apoio a outros projetos.
+Scripts utilizados para experimentos, automações pontuais e suporte aos projetos principais.
 
 ---
 
 ## 🧪 Tecnologias Utilizadas
 
 - Python 3
+- PyAutoGUI (RPA)
+- CustomTkinter (GUI)
 - Streamlit
-- Manipulação de arquivos (CSV, imagens, PDF)
-- Automação básica
-- Lógica de programação
+- Manipulação de CSV
+- Automação de processos
+- Manipulação de imagens e PDF
 
 ---
 
